@@ -164,6 +164,9 @@ exports['test stringifying'] = function(assert) {
     assert.equal(testCase[1], qs.stringify(testCase[0]),
                  'stringify ' + JSON.stringify(testCase[0]));
   });
+
+  assert.equal(qs.stringify({filter:[], x:1}), 'x=1', 'stringify should not include empty array');
+  assert.equal(qs.stringify({filter:[]}), '', 'stringify should not include empty array');
 };
 
 exports['test stringifying nested'] = function(assert) {
