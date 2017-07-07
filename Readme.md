@@ -1,3 +1,7 @@
+# New location
+
+https://github.com/SpainTrain/querystring-es3
+
 # querystring
 
 [![Build Status](https://secure.travis-ci.org/mike-spainhower/querystring.png)](http://travis-ci.org/mike-spainhower/querystring)
